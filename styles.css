@@ -1,0 +1,79 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 0 5% 0;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+
+button{
+  background-color: hsl(61, 55%, 55%);
+  font-family: 'Lobster';
+  font-size: 1.5rem;
+  margin-top: 45px;
+
+}
+
+body{
+  text-align: center;
+}
+
+/* adding media query to make website mobile responsive */
+@media(max-width:995px){
+img{
+  width: 30%;
+}
+h1{
+  font-size: 3rem;
+
+}
+
+.dice {
+  flex-basis: calc(50% - 10px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+}
+
+
+
+
